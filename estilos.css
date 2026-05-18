@@ -3,6 +3,7 @@ body{
 }
 /* Inicio de la página */
 /* servicios */
+
 /* Proyectos */
 .contenedor-proyectos{
     display: grid;
@@ -15,9 +16,15 @@ body{
     height: 50vh;
     border-radius: 15px;
     padding: 17px;
-    background-color: turquoise;
+    background-color: rgb(176, 224, 214);
     text-align: justify;
     margin: 20px auto;
     transform: 0.5;
 }
+.contenedor-card:hover{
+    transform: scale(1.05);
+    transition: transform 1s ease;
+}
+
+
 /* Contacto */
