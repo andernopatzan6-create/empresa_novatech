@@ -1,3 +1,169 @@
+
+
+
+/* Contacto */
+ /* Inicio de la págna */
+
+ .Titulo{
+    height: 8vh;
+    background-color: rgb(73, 59, 204);
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .Barra-nav{
+    display: flex;
+    background-color: rgb(226, 251, 253);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 7vh;
+    align-items: center;
+ }
+
+ ul{
+    display: flex;
+    width: 90%;
+    justify-content:space-between;
+    align-items:center;
+ }
+
+ li{
+    font-size: 27px;
+    list-style: center;
+ }
+
+ ul li a{
+    color: rgb(2, 2, 2);
+    text-decoration: none;
+ }
+
+ li a:hover{
+    background-color: rgb(196, 190, 190);
+    padding: 5px;
+    border-radius: 20px;
+ }
+
+ .contenedor-inicio{
+    display: grid;
+    grid-template-columns: 1fr;
+ }
+
+ .Inicio-card{
+    width: 1000px;
+    height: 65vh;
+    border-radius: 15px;
+    padding: 17px;
+    background-color: rgb(174, 174, 247);
+    text-align: justify;
+    margin: 20px auto;
+    transform: 0.5;
+ }
+
+.Inicio-card:hover{
+    transform: scale(1.03);
+    box-shadow: 0 15px 25px rgb(80, 78, 78);
+}
+
+ .Subtitulo{
+    font-size: 30px;
+    color: #171236;
+    text-align: center;
+ }
+
+ .información{
+    font-size: 15px;
+    color: #000000;
+    text-align: justify;
+ }
+
+ .contenedor-inicio img{
+    width: 400px;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    transition: transform 1s ease;
+    box-shadow:0 10px 25px black;
+    margin: 0 auto;
+
+ }
+
+ .contenedor-inicio2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ .Inicio2-card{
+    width: 500px;
+    height: 65vh;
+    border-radius: 15px;
+    padding: 17px;
+    background-color: rgb(160, 148, 148);
+    text-align: justify;
+    margin: 20px auto;
+    transform: 0.5;
+    Border: 2px solid black;
+ }
+
+ .Inicio2-card img{
+    width: 300px;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    transition: transform 1s ease;
+    box-shadow:0 10px 25px black;
+    margin: 0 auto;
+    border-radius: 5px;
+ }
+
+ .Servicios-texto{
+    height: 9vh;
+    background-color: rgb(207, 202, 245);
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+ }
+
+
+ .contenedor-servicios{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+  .Servicios-card{
+    width: 500px;
+    height: 65vh;
+    border-radius: 15px;
+    padding: 17px;
+    background-color: rgb(204, 193, 193);
+    text-align: justify;
+    margin: 20px auto;
+    transform: 0.5;
+    Border: 2px solid black;
+ }
+
+.h3-texto{
+    height: 9vh;
+    text-align: center;
+    font-size: 30px;
+    color: #000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ .h3-Servicios{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+ }
+
+ .P-Servicios{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+ }
+
 body{
     background-color: antiquewhite;
 }
@@ -27,4 +193,7 @@ body{
 }
 
 
-/* Contacto */
+ /* Servicios */
+ /* Nosotros */
+ /* Proyectos */
+ /* Contacto */
